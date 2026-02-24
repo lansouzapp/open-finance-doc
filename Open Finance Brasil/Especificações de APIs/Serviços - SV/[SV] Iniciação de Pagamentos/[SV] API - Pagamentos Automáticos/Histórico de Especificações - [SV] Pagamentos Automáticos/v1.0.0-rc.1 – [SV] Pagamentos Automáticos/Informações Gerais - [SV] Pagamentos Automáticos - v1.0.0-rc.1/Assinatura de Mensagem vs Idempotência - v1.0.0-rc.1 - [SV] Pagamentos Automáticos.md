@@ -1,9 +1,0 @@
----
-id: 264176243
-title: Assinatura de Mensagem vs Idempotência - v1.0.0-rc.1 - [SV] Pagamentos Automáticos
-version: 1
-modified: 2024-01-18T21:06:17.339Z
-url: /spaces/OF/pages/264176243/Assinatura+de+Mensagem+vs+Idempot+ncia+-+v1.0.0-rc.1+-+SV+Pagamentos+Autom+ticos
----
-
-**A implementação e certificação do Pix Automático está pausada no momento. O produto Transferência Inteligentes (Sweeping Accounts) continua disponível para implementação e certificação.**O claim jti inserido dentro do JWT da assinatura da mensagem tem como objetivo evitar ataques de repetição e não é utilizado para o controle da idempotência. Desta forma ele deverá ser gerado a cada nova requisição realizada às APIs, independentemente desta ser a requisição para a criação de uma nova operação ou ser a requisição para confirmação de execução de uma operação anterior (idempotente).As validações referentes a assinatura de mensagens devem preceder as validações de idempotência.
