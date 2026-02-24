@@ -1,0 +1,44 @@
+---
+id: 474415125
+title: Informações Gerais - [DC] Financiamento - v2.2.0
+version: 3
+modified: 2024-07-04T14:46:26.572Z
+url: /spaces/OF/pages/474415125/Informa+es+Gerais+-+DC+Financiamento+-+v2.2.0
+---
+
+- Financiamentos: (GET /financings/v2/contracts)
+- Financiamentos - Contrato: (GET /financings/v2/contracts/{contractId})
+- Financiamentos - Garantias do Contrato: (GET /financings/v2/contracts/{contractId}/warranties)
+- Financiamentos - Pagamentos do Contrato: (GET /financings/v2/contracts/{contractId}/payments)
+- Financiamentos - Parcelas do Contrato: (GET /financings/v2/contracts/{contractId}/scheduled-instalments)
+**Visão Geral**A API Financings viabiliza o compartilhamento de informações das Operações de Crédito do tipo Financiamento.
+## Financiamentos : (GET /financings/v2/contracts)
+**Visão Geral**Obtém dados referentes à operação de crédito de FinanciamentosTags: [CNPJ (CNPJ Number)](https://openfinancebrasil.atlassian.net/wiki/spaces/OF/pages/17379230/Gloss+rio#CNPJ-(CNPJ-Number)), [CPF - Cadastro de Pessoa Física (CPF Number)](https://openfinancebrasil.atlassian.net/wiki/spaces/OF/pages/17379230/Gloss+rio#CPF---Cadastro-de-Pessoa-F%C3%ADsica-(CPF-Number)) e [Financiamento (Financing)](https://openfinancebrasil.atlassian.net/wiki/spaces/OF/pages/17379230/Gloss+rio#Financiamento-(Financing)).**Visão de alto de nível das estruturas de dados****DER - Diagramas de Entidade e Relacionamento**
+- DER Conceitual
+ 
+- DER Lógico
+ **Dicionário de dados**[Fazer download do dicionário de dados](https://openbanking-brasil.github.io/openapi/dictionary/financingsGetContracts_v2.csv)[Fazer download dos exemplos](https://openfinancebrasil.atlassian.net/wiki/download/attachments/10059794/financingsGetContracts.csv?api=v2&download=true)
+## Financiamentos - Contrato : (GET /financings/v2/contracts/{contractId})
+**Visão Geral**Obtém dados referentes à identificação da operação de crédito de FinanciamentosTags: [CNPJ (CNPJ Number)](https://openfinancebrasil.atlassian.net/wiki/spaces/OF/pages/17379230/Gloss+rio#CNPJ-(CNPJ-Number)), [CPF - Cadastro de Pessoa Física (CPF Number)](https://openfinancebrasil.atlassian.net/wiki/spaces/OF/pages/17379230/Gloss+rio#CPF---Cadastro-de-Pessoa-F%C3%ADsica-(CPF-Number)), [Custo Efetivo Total (CET)](https://openfinancebrasil.atlassian.net/wiki/spaces/OF/pages/17379230/Gloss+rio#Custo-Efetivo-Total-(CET)), [Encargo (Charge)](https://openfinancebrasil.atlassian.net/wiki/spaces/OF/pages/17379230/Gloss+rio#Encargo-(Charge)), [Ente Consignante (CnpjConsignee)](https://openfinancebrasil.atlassian.net/wiki/spaces/OF/pages/17379230/Gloss+rio#Ente-Consignante-(CnpjConsignee)), [Financiamento (Financing)](https://openfinancebrasil.atlassian.net/wiki/spaces/OF/pages/17379230/Gloss+rio#Financiamento-(Financing)), [Identificador Padronizado da Operação de Crédito – Ipoc Code](https://openfinancebrasil.atlassian.net/wiki/spaces/OF/pages/17379230/Gloss+rio#Identificador-Padronizado-da-Opera%C3%A7%C3%A3o-de-Cr%C3%A9dito-%E2%80%93-Ipoc-Code), [Indexador (Indexer)](https://openfinancebrasil.atlassian.net/wiki/spaces/OF/pages/17379230/Gloss+rio#Indexador-(Indexer)), [Sistema de Amortização Constante (SAC)](https://openfinancebrasil.atlassian.net/wiki/spaces/OF/pages/17379230/Gloss+rio#Sistema-de-Amortiza%C3%A7%C3%A3o-Constante-(SAC)), [Sistema de Amortização Misto (SAM)](https://openfinancebrasil.atlassian.net/wiki/spaces/OF/pages/17379230/Gloss+rio#Sistema-de-Amortiza%C3%A7%C3%A3o-Misto-(SAM)), [Sistema Francês de Amortização (Price)](https://openfinancebrasil.atlassian.net/wiki/spaces/OF/pages/17379230/Gloss+rio#Sistema-Franc%C3%AAs-de-Amortiza%C3%A7%C3%A3o-(Price)), [Tarifa (Fee)](https://openfinancebrasil.atlassian.net/wiki/spaces/OF/pages/17379230/Gloss+rio#Tarifa-(Fee)), [Taxa Efetiva (EffectiveTax)](https://openfinancebrasil.atlassian.net/wiki/spaces/OF/pages/17379230/Gloss+rio#Taxa-Efetiva-(EffectiveTax)) e [Taxa nominal (NominalTax)](https://openfinancebrasil.atlassian.net/wiki/spaces/OF/pages/17379230/Gloss+rio#Taxa-nominal-(NominalTax)).**Visão de alto de nível das estruturas de dados****DER - Diagramas de Entidade e Relacionamento**
+- DER Conceitual
+ 
+- DER Lógico
+ **Dicionário de dados**[Fazer download do dicionário de dados](https://openbanking-brasil.github.io/openapi/dictionary/financingsGetContractsContractId_v2.csv)[Fazer download dos exemplos](https://openfinancebrasil.atlassian.net/wiki/download/attachments/10059794/financingsGetContractsContractId.csv?api=v2&download=true)
+## Financiamentos - Garantias do Contrato : (GET /financings/v2/contracts/{contractId}/warranties)
+**Visão Geral**Obtém dados referentes às garantias que avalizam a operação de crédito de Financiamentos contratadaTags: [Financiamento (Financing)](https://openfinancebrasil.atlassian.net/wiki/spaces/OF/pages/17379230/Gloss+rio#Financiamento-(Financing)), [Garantia (Warranty)](https://openfinancebrasil.atlassian.net/wiki/spaces/OF/pages/17379230/Gloss+rio#Garantia-(Warranty)) e [Sistema de Amortização Misto (SAM)](https://openfinancebrasil.atlassian.net/wiki/spaces/OF/pages/17379230/Gloss+rio#Sistema-de-Amortiza%C3%A7%C3%A3o-Misto-(SAM)).**Visão de alto de nível das estruturas de dados****DER - Diagramas de Entidade e Relacionamento**
+- DER Conceitual
+ 
+- DER Lógico
+ **Dicionário de dados**[Fazer download do dicionário de dados](https://openbanking-brasil.github.io/openapi/dictionary/financingsGetContractsContractIdWarranties_v2.csv)[Fazer download dos exemplos](https://openfinancebrasil.atlassian.net/wiki/download/attachments/10059794/financingsGetContractsContractIdWarranties.csv?api=v2&download=true)
+## Financiamentos - Pagamentos do Contrato : (GET /financings/v2/contracts/{contractId}/payments)
+**Visão Geral**Obtém dados dos pagamentos referentes às operações de crédito de Financiamentos contratadasTags: [Encargo (Charge)](https://openfinancebrasil.atlassian.net/wiki/spaces/OF/pages/17379230#Encargo-(Charge)), [Financiamento (Financing)](https://openfinancebrasil.atlassian.net/wiki/spaces/OF/pages/17379230#Financiamento-(Financing)), [Identificador Padronizado da Operação de Crédito – Ipoc Code](https://openfinancebrasil.atlassian.net/wiki/spaces/OF/pages/17379230#Identificador-Padronizado-da-Opera%C3%A7%C3%A3o-de-Cr%C3%A9dito-%E2%80%93-Ipoc-Code), [Saldo Devedor (Outstanding Balance)](https://openfinancebrasil.atlassian.net/wiki/spaces/OF/pages/17379230#Saldo-Devedor-(Outstanding-Balance)), [Sistema de Amortização Constante (SAC)](https://openfinancebrasil.atlassian.net/wiki/spaces/OF/pages/17379230#Sistema-de-Amortiza%C3%A7%C3%A3o-Constante-(SAC)), [Sistema de Amortização Misto (SAM)](https://openfinancebrasil.atlassian.net/wiki/spaces/OF/pages/17379230#Sistema-de-Amortiza%C3%A7%C3%A3o-Misto-(SAM)), [Sistema Francês de Amortização (Price)](https://openfinancebrasil.atlassian.net/wiki/spaces/OF/pages/17379230#Sistema-Franc%C3%AAs-de-Amortiza%C3%A7%C3%A3o-(Price)) e [Tarifa (Fee)](https://openfinancebrasil.atlassian.net/wiki/spaces/OF/pages/17379230#Tarifa-(Fee)).**Visão de alto de nível das estruturas de dados****DER - Diagramas de Entidade e Relacionamento**
+- DER Conceitual
+ 
+- DER Lógico
+ **Dicionário de dados**[Fazer download do dicionário de dados](https://openbanking-brasil.github.io/openapi/dictionary/financingsGetContractsContractIdPayments_v2.csv)[Fazer download dos exemplos](https://openfinancebrasil.atlassian.net/wiki/download/attachments/10059794/financingsGetContractsContractIdPayments.csv?api=v2&download=true)
+## Financiamentos - Parcelas do Contrato : (GET /financings/v2/contracts/{contractId}/scheduled-instalments)
+**Visão Geral**Obtém dados referentes às parcelas / prestações da operação de crédito de Financiamentos contratadasTags: [Financiamento (Financing)](https://openfinancebrasil.atlassian.net/wiki/spaces/OF/pages/17379230#Financiamento-(Financing)) e [Prestação Regular (Instalment)](https://openfinancebrasil.atlassian.net/wiki/spaces/OF/pages/17379230#Presta%C3%A7%C3%A3o-Regular-(Instalment)).**Visão de alto de nível das estruturas de dados****DER - Diagramas de Entidade e Relacionamento**
+- DER Conceitual
+ 
+- DER Lógico
+ **Dicionário de dados**[Fazer download do dicionário de dados](https://openbanking-brasil.github.io/openapi/dictionary/financingsGetContractsContractIdScheduledInstalments_v2.csv)[Fazer download dos exemplos](https://openfinancebrasil.atlassian.net/wiki/download/attachments/10059794/financingsGetContractsContractIdScheduledInstalments.csv?api=v2&download=true)

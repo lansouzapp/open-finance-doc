@@ -1,0 +1,21 @@
+---
+id: 1477279895
+title: v.19.00.01 Premissas de implementação
+version: 1
+modified: 2026-01-23T17:45:53.436Z
+url: /spaces/OF/pages/1477279895/v.19.00.01+Premissas+de+implementa+o
+---
+
+Este tópico apresenta as premissas de implementação que orientam a aplicação das diretrizes de experiência no Open Finance Brasil, resultantes do alinhamento realizado no âmbito do Grupo de Trabalho de Experiência do Usuário (GT- UX), com o objetivo de apoiar decisões técnicas na execução das jornadas. As orientações se baseiam em duas premissas centrais: preservar o tom de voz das instituições participantes e reforçar seu posicionamento como marcas, assegurando flexibilidade na comunicação sem comprometer a padronização necessária para a jornada do usuário.
+# Premissa 1: Preservar o tom de voz de cada instituição
+**Tom de voz é como a marca se comunica com seus usuários em diferentes canais.**Por exemplo, para conversar com seus usuários, uma marca mais informal pode usar termos como ‘E aí?’ ou “Legal!”, já uma marca mais tradicional pode usar termos como “Pronto!” ou “Tudo certo”. Em uma situação de erro, por exemplo, pode-se usar a palavra “Ops” (para exemplificar uma linguagem um pouco mais informal) ou “Desculpe” (para exemplificar uma linguagem um pouco mais formal).
+# Premissa 2: Instituições participantes devem se posicionar como marcas
+**Marcas são uma forma mais amigável, democrática e fácil para identificação das instituições participantes.**Uma marca de conglomerado pode estar correlacionada a mais de uma instituição participante, assim como uma instituição participante pode estar correlacionada a mais de uma marca.
+## Relação Instituição x Marca
+No exemplo a seguir, são apresentadas duas marcas distintas que compartilham dados do mesmo usuário. Em alguns casos, o usuário pode não reconhecer o nome institucional da instituição, identificando-a apenas pela marca.Além disso, uma instituição pode representar um grupo de participantes, no qual outras instituições estão associadas.Em uma situação fictícia, a marca **Wiscredi** também integra a instituição **GOOP**, relação que pode não ser evidente para o usuário. Ao apresentar o nome das marcas de forma associada às suas instituições participantes, o processo se torna mais claro e transparente.Outro exemplo ocorre quando a instituição participante utiliza uma marca de terceiro, não pertencente ao seu conglomerado, para identificação no Open Finance.Nessa situação, a instituição responsável pelo produto participante deve realizar o cadastro da marca no Diretório, podendo assim usar marca de terceiro para essa identificação, caso o produto seja reconhecido pelo usuário por meio dessa marca.Esse é o caso de *e-commerces* com iniciadores de pagamento *White Label* ou de serviços prestados no modelo *Bank as a Service.*A seguir, são apresentadas as deliberações definidas no âmbito do Grupo de Trabalho para o uso de marcas no Open Finance Brasil, considerando aspectos de identificação, reconhecimento pelo usuário e preservação do tom de voz das instituições ao longo das jornadas:
+1. Ter pelo menos um canal digital que permita a autenticação e o compartilhamento de dados pelo usuário.
+2. Estabelecer uma correlação dos dados objeto de compartilhamento contidos na marca. Esses dados precisam estar também relacionados aos seus canais digitais  (Ex: produtos comercializados no canal);
+3. Definir o nome a ser utilizado pelas instituições participantes dentro do Diretório Central, considerando o posicionamento atual de cada instituição que é conhecido pelos usuários (utilizar nome da marca e não o nome de registro no BCB);
+4. Apresentar seu nome por inteiro, sem abreviações, de forma a ser reconhecida pelo usuário e aderente a interfaces menores;
+5. Declarar de forma transparente ao usuário a utilização dos dados pela marca e pelos participantes associados, por meio da finalidade de uso;
+6. A marca da Instituição Transmissora e da Instituição Detentora de Conta será declarada no `Authorisation Server` , no campo `Customer Friendly Server Name` . Já a marca da Instituição Receptora e da Iniciadora de Transação de Pagamento será declarada no `Software Statement` no campo `Client Name` . Essas serão as marcas que aparecerão na jornada para o usuário. Para mais informações sobre esses campos, ver o Guia de Operação do Diretório Central.

@@ -1,0 +1,10 @@
+---
+id: 1329234025
+title: Guia de UX - CF
+version: 3
+modified: 2025-12-01T18:58:03.804Z
+url: /spaces/OF/pages/1329234025/Guia+de+UX+-+CF
+---
+
+## Contexto
+Esse guia é parte integrante do regulamento do Open Finance no Brasil e engloba um conjunto de requisitos mínimos que devem ser seguidos pelas instituições participantes com o objetivo de nortear a sua implantação e garantir uma experiência adequada e padronizada ao cliente, com foco na jornada do usuário para compartilhamento de dados e iniciação de pagamento.Direcionados às instituições participantes do Open Finance no Brasil, o guia de experiência apresenta princípios, diretrizes, referências, requisitos obrigatórios e recomendações para a criação da jornada do usuário para compartilhamento de dados e iniciação de pagamento.As recomendações podem ser seguidas para complementar a experiência, porém funcionalidades não previstas nesse documento serão aceitas, desde que atendam aos princípios e às diretrizes da regulamentação em vigor.Cada caso de uso é acompanhado de telas ilustrativas para facilitar a compreensão do texto que não implicam em obrigatoriedade para o desenvolvimento das interfaces.**Link Confluence:****v.17 Portabilidade de Crédito (UX)**

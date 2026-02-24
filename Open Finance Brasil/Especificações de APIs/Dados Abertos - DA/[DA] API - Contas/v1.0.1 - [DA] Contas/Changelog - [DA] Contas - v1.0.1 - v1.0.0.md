@@ -1,0 +1,41 @@
+---
+id: 619348057
+title: Changelog - [DA] Contas - v1.0.1 - v1.0.0
+version: 2
+modified: 2024-10-08T13:21:15.077Z
+url: /spaces/OF/pages/619348057/Changelog+-+DA+Contas+-+v1.0.1+-+v1.0.0
+---
+
+## GET /business-accounts
+
+### Response
+
+| Campo | O que foi alterado? | Tipo da Alteração | Antes | Depois |
+| --- | --- | --- | --- | --- |
+| get/responses/200/links/first | Removido - "pattern" | Remoção | ^(https:\/\/)?(www\.)?[-a-zA-Z0-9@:%._\+~#=]{2,256}\.[a-z]{2,6}\b([-a-zA-Z0-9@:%_\+.~#?&\/\/=]*)$ | |
+| get/responses/200/links/first | Adicionado - "format" | Adição | | url |
+| get/responses/200/links/last | Removido - "pattern" | Remoção | ^(https:\/\/)?(www\.)?[-a-zA-Z0-9@:%._\+~#=]{2,256}\.[a-z]{2,6}\b([-a-zA-Z0-9@:%_\+.~#?&\/\/=]*)$ | |
+| get/responses/200/links/last | Adicionado - "format" | Adição | | url |
+| get/responses/200/links/next | Removido - "pattern" | Remoção | ^(https:\/\/)?(www\.)?[-a-zA-Z0-9@:%._\+~#=]{2,256}\.[a-z]{2,6}\b([-a-zA-Z0-9@:%_\+.~#?&\/\/=]*)$ | |
+| get/responses/200/links/next | Adicionado - "format" | Adição | | url |
+| get/responses/200/links/prev | Removido - "pattern" | Remoção | ^(https:\/\/)?(www\.)?[-a-zA-Z0-9@:%._\+~#=]{2,256}\.[a-z]{2,6}\b([-a-zA-Z0-9@:%_\+.~#?&\/\/=]*)$ | |
+| get/responses/200/links/prev | Adicionado - "format" | Adição | | url |
+| get/responses/200/links/self | Removido - "pattern" | Remoção | ^(https:\/\/)?(www\.)?[-a-zA-Z0-9@:%._\+~#=]{2,256}\.[a-z]{2,6}\b([-a-zA-Z0-9@:%_\+.~#?&\/\/=]*)$ | |
+| get/responses/200/links/self | Adicionado - "format" | Adição | | url |
+
+## GET /personal-accounts
+
+### Response
+
+| Campo | O que foi alterado? | Tipo da Alteração | Antes | Depois |
+| --- | --- | --- | --- | --- |
+| get/responses/200/links/first | Removido - "pattern" | Remoção | ^(https:\/\/)?(www\.)?[-a-zA-Z0-9@:%._\+~#=]{2,256}\.[a-z]{2,6}\b([-a-zA-Z0-9@:%_\+.~#?&\/\/=]*)$ | |
+| get/responses/200/links/first | Adicionado - "format" | Adição | | url |
+| get/responses/200/links/last | Removido - "pattern" | Remoção | ^(https:\/\/)?(www\.)?[-a-zA-Z0-9@:%._\+~#=]{2,256}\.[a-z]{2,6}\b([-a-zA-Z0-9@:%_\+.~#?&\/\/=]*)$ | |
+| get/responses/200/links/last | Adicionado - "format" | Adição | | url |
+| get/responses/200/links/next | Removido - "pattern" | Remoção | ^(https:\/\/)?(www\.)?[-a-zA-Z0-9@:%._\+~#=]{2,256}\.[a-z]{2,6}\b([-a-zA-Z0-9@:%_\+.~#?&\/\/=]*)$ | |
+| get/responses/200/links/next | Adicionado - "format" | Adição | | url |
+| get/responses/200/links/prev | Removido - "pattern" | Remoção | ^(https:\/\/)?(www\.)?[-a-zA-Z0-9@:%._\+~#=]{2,256}\.[a-z]{2,6}\b([-a-zA-Z0-9@:%_\+.~#?&\/\/=]*)$ | |
+| get/responses/200/links/prev | Adicionado - "format" | Adição | | url |
+| get/responses/200/links/self | Removido - "pattern" | Remoção | ^(https:\/\/)?(www\.)?[-a-zA-Z0-9@:%._\+~#=]{2,256}\.[a-z]{2,6}\b([-a-zA-Z0-9@:%_\+.~#?&\/\/=]*)$ | |
+| get/responses/200/links/self | Adicionado - "format" | Adição | | url |

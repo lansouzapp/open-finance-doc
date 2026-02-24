@@ -1,0 +1,100 @@
+---
+id: 1436294163
+title: v.19.00.00 Requisitos e Recomendações - Jornada Básica de Portabilidade do usuário
+version: 1
+modified: 2026-01-12T19:26:56.196Z
+url: /spaces/OF/pages/1436294163/v.19.00.00+Requisitos+e+Recomenda+es+-+Jornada+B+sica+de+Portabilidade+do+usu+rio
+---
+
+**Nota:**Nas interfaces ilustrativas, a Instituição Proponente está sendo representada pela marca Wiscredi na cor azul escuro e a Instituição Credora é a marca Bratech na cor amarelo escuro.
+# Etapa 1: Descoberta
+PC - etapa 1Nesta etapa inicial da jornada, o usuário acessa o canal digital da Instituição Proponente (IP) e encontra a opção de iniciar a Portabilidade de Crédito.
+
+A Instituição Proponente (IP), por sua vez, deve garantir que esse acesso ocorra de forma adequada, segura e em conformidade com os critérios regulatórios definidos para o Open Finance. #F4F5F7
+## Requisitos - IP
+**Cenário: Acesso à Portabilidade de Crédito**
+1. Disponibilização do produto: Disponibilizar o produto apenas para Pessoa Física.
+2. Ausência/Expiração de consentimento com escopo de crédito: Se não houver consentimento, ou se ele expirar em até 15 dias úteis a partir da data de solicitação, direcionar o usuário para a Jornada de Compartilhamento de Dados quando ele selecionar a opção Portabilidade de Crédito via Open Finance. Ex.: “Renove seu consentimento de compartilhamento de dados antes de seguir com a solicitação de portabilidade.”
+Acesso à Portabilidade de Crédito #F4F5F7
+## Recomendações - IP
+**Cenário: Acesso à Portabilidade de Crédito**
+1. Disponibilização do produto: Implementar a opção de Portabilidade de Crédito na seção de Crédito/Empréstimos do canal digital.
+2. Educação do usuário: Pelo menos na primeira utilização do produto, exibir uma tela introdutória com breve explicação sobre Portabilidade de Crédito.   Permitir que o usuário avance após confirmar que compreendeu as informações.   Incluir a chamada para o fluxo de consentimento, se necessário.   Disponibilizar canais adicionais para esclarecimento de dúvidas.   Exibir mensagem informando os produtos disponíveis para Portabilidade de Crédito via Open Finance.   Exibir mensagem sempre que um novo produto estiver disponível para Portabilidade de Crédito via Open Finance.
+Portabilidade de Crédito - Acesso à Portabilidade de Crédito
+# Etapa 2: Consulta
+PC - etapa 2Nesta etapa, o usuário consulta os contratos de crédito elegíveis para portabilidade, pertencentes às Instituições Credoras (IC) para as quais ele já consentiu o compartilhamento de dados de Operações de Crédito.  
+
+A Instituição Proponente (IP), por sua vez, deve garantir a exibição desses contratos de forma clara, estruturada e completa, possibilitando que o usuário visualize os detalhes e selecione aquele(s) que deseja portar.#F4F5F7
+## Requisitos - IP
+**Cenário: Seleção do contrato**
+1. Exibição dos contratos ativos: Exibir todos os contratos ativos de crédito para os quais o usuário tenha consentido seus dados de Operação de Crédito com as informações a seguir. Nome da Credora Taxa Valor da parcela Número de parcelas   Saldo devedor Número do contrato
+2. Exibição de portabilidade em andamento: Exibir contratos com pedido de portabilidade em andamento, sejam feitos via Open Finance ou via registradora, mas desabilitados para seleção. Indicar visualmente que há uma portabilidade em andamento para o contrato exibido.
+3. Tipo de contrato : Indicar visualmente o tipo de contrato na lista. Ex. Consignado Federal e CPC.
+4. Seleção do contrato: Permitir que o usuário selecione o contrato desejado.
+Portabilidade de Crédito - Seleção do contrato #F4F5F7
+## Recomendações - IP
+**Cenário: Seleção do contrato**
+1. Exibição das Credoras: Exibir todas as Instituições Credoras para os quais o usuário tenha consentido seus dados de Operação de Crédito.   Permitir que o usuário busque pela Credora desejada.  Permitir que o usuário selecione a Credora cujos contratos ativos de crédito deseja visualizar.
+Portabilidade de crédito - Seleção do contrato
+1. Seleção múltipla de contratos: Permitir seleção múltipla de contratos, desde que cada um receba proposta individual clara.
+Portabilidade de Crédito - Seleção do contrato
+# Etapa 3: Solicitação
+PC - etapa 3Nesta etapa, o usuário seleciona o contrato elegível que deseja portar e envia o pedido de Portabilidade de Crédito.
+
+A Instituição Proponente (IP) deve possibilitar esse envio e informar o usuário sobre o andamento da análise e a eventual disponibilização de uma proposta.
+Além disso, caso deseje, a Proponente pode acionar proativamente o usuário com uma oferta de portabilidade, iniciando a jornada a partir do momento que considerar mais adequado. #F4F5F7
+## Requisitos - IP
+**Cenário: Solicitação da Portabilidade de Crédito**
+1. Envio do pedido: Permitir o envio do pedido de Portabilidade de Crédito.
+2. Confirmação do envio: Em caso de jornada assíncrona, exibir uma tela confirmando o envio do pedido. Informar o prazo estimado para conclusão da análise e disponibilização da proposta.
+Ex.: Em até XX horas, vamos analisar se há uma oferta compatível com o seu perfil.Portabilidade de Crédito - Solicitação da Portabilidade de Crédito
+1. Acionamento do usuário: Caso a Proponente acione o usuário para oferecer a Portabilidade de Crédito, informá-lo sobre a oferta (Ex.: push , SMS, email etc.). Ex.: Traga seu empréstimo 885320 para cá. Encaminhar o usuário diretamente para a etapa correspondente na jornada (Ex.: seleção do contrato, exibição da proposta, análise do pedido etc.) conforme o modelo adotado (síncrono ou assíncrono).
+Portabilidade de Crédito - Solicitação da Portabilidade de Crédito#F4F5F7
+## Recomendações -IP
+**Cenário: Solicitação da Portabilidade de Crédito**
+1. Saída do fluxo: Em caso de jornada assíncrona, ao sair do fluxo, direcionar o usuário para a Área de Gestão de Pedidos para que ele possa visualizar o status do pedido (Ex.: Pedido em análise).
+Portabilidade de Crédito - Solicitação da Portabilidade de Crédito
+# Etapa 4: Oferta
+PC - etapa 4Nesta etapa, o usuário é informado sobre a disponibilidade ou ausência de uma proposta (pela Proponente) ou de uma contraproposta (pela Credora), e pode acessá-la para análise.A Instituição Proponente e/ou a Instituição Credora deve garantir que essa comunicação ocorra de forma clara, apresentando todos os detalhes relevantes da proposta ou contraproposta, para que o usuário possa tomar uma decisão consciente.#F4F5F7
+## Requisitos - IP
+**Cenário: Apresentação da proposta**
+1. Exibição da proposta: Exibir de forma comparativa, os novos valores da proposta feita pela Proponente versus os valores da Credora, contendo: Saldo devedor Para (indicando a instituição de destino) De (indicando a instituição de origem) Diferença mensal (indicando o valor de redução/aumento mensal em relação ao contrato de origem) Diferença total (indicando o valor de redução/aumento total em relação ao contrato de origem) Novo prazo (indicando a quantidade de parcelas até o fim do novo contrato) Prazo remanescente (indicando a quantidade de parcelas remanescentes até o fim do contrato de origem) Nova parcela (indicando o valor da parcela do novo contrato) Parcela atual (indicando o valor da parcela do contrato de origem) Nova taxa de juros (indicando a taxa de juros do novo contrato) Taxa de juros atual (indicando a taxa de juros do contrato de origem) Novo CET (indicando o Custo Efetivo Total do novo contrato) CET atual (indicando o Custo Efetivo Total do contrato de origem) Data da primeira parcela do novo contrato Data da última parcela do novo contrato
+2. Diferença de valores: Exibir, com destaque, a diferença de valor mensal e valor total que o novo contrato oferece em relação ao contrato de origem, seja para mais, para menos ou com nenhuma diferença.
+3. Alteração de valores: Sinalizar na exibição da proposta, conforme estratégia da instituição, que o valor da parcela pode sofrer alterações.
+4. Prazo de resposta: Exibir prazo para que o usuário aceite ou recuse a proposta até seu cancelamento automático de acordo com a legislação e regulação vigentes. Ex.: Você tem 2 dias para aceitar a proposta ou ela será cancelada automaticamente.
+Portabilidade de Crédito - Apresentação da proposta **Cenário: Proposta desvantajosa**
+1. Aumento de custos: Informar com clareza ao usuário caso a proposta resulte em aumento dos custos do empréstimo em comparação ao contrato original. Exs.: Valor adicional mensal e Valor adicional total.
+2. Mensagem de confirmação: Exibir uma confirmação adicional perguntando explicitamente ao usuário se ele deseja prosseguir com o aceite, antes da formalização.
+Portabilidade de Crédito - Proposta desvantajosa**Cenário: Aceite/recusa da proposta**
+1. Resposta à proposta: Possibilitar que o usuário aceite ou recuse a proposta de Portabilidade de Crédito. Desobrigar o usuário de aceitar ou recusar a proposta no momento da exibição. Ex.: Botão Voltar .  Em caso de aceite da proposta:    Direcionar o usuário para a tela de assinatura do contrato.  Disponibilizar, em tela, conforme estratégia da instituição, as condições operacionais do contrato conforme descrito no cenário de Apresentação da proposta. Possibilitar que o usuário baixe o contrato completo.   Possibilitar que o usuário assine o contrato exclusivamente por meio digital com autenticação, exceto nos casos ou estados que exijam obrigatoriamente a assinatura física. (Ex.: senha, token por SMS, token por email etc.)   Exibir mensagem em tela informando que o pedido de Portabilidade de Crédito foi realizado e que a efetivação poderá levar até 5 dias úteis. Disponibilizar imediatamente o contrato assinado, inclusive para download.   Informar, quando aplicável, o prazo para desistência da Portabilidade de Crédito antes da liquidação. Em caso de recusa da proposta :   Exibir mensagem em tela confirmando que a Portabilidade de Crédito foi cancelada porque a proposta foi recusada.
+**Nota:**A assinatura do contrato não conclui a Portabilidade de Crédito. A efetivação da portabilidade acontecerá apenas após a liquidação do contrato pela Proponente junto à Instituição Credora e sua confirmação de recebimento no final da jornada.Portabilidade de Crédito - Aceite/recusa da proposta #F4F5F7
+## Requisitos - IC
+**Cenário: Apresentação da contraproposta**Para os casos em que a Credora tiver uma contraproposta para o usuário, ela deve:
+1. Disponibilização da contraproposta: Disponibilizar a oferta da contraproposta em seu canal digital.
+2. Resposta à contraproposta: Garantir que o aceite ou recusa da contraproposta ocorra exclusivamente através de seu canal digital, exceto nos casos ou estados que exijam assinatura física.
+Portabilidade de Crédito - Apresentação da contraproposta 
+1. Prazo de resposta: Informar com clareza o prazo para aceite ou recusa da contraproposta, respeitando o limite das 9h do 3º dia útil após a disponibilização da contraproposta.
+2. Resposta à contraproposta: Desobrigar o usuário de aceitar ou recusar a contraproposta. Ex.: Botão Voltar . Informar que a ausência de resposta do usuário implica no sequenciamento da operação com a Proponente.
+3. Requisitos complementares: Seguir os requisitos complementares descritos no cenário de Apresentação da Proposta.
+Portabilidade de Crédito - Recebimento e apresentação da contraproposta **Cenário: Aceite/recusa da contraproposta**Para garantir que o usuário responda à contraproposta, quando aplicável, a Credora deve:
+1. Requisitos básicos: Seguir os requisitos descritos no cenário de Aceite/Recusa da Proposta.
+Portabilidade de Crédito - Aceite/recusa da contraproposta #F4F5F7
+## Recomendações - IP
+**Cenário: Aceite/recusa da proposta**Para aprimorar a experiência do usuário, são opções da Proponente:
+1. Assinatura do contrato: Habilitar a assinatura do contrato somente quando o usuário tiver feito a rolagem de todo o contrato.
+2. Novo pedido: Possibilitar que o usuário faça um novo pedido de Portabilidade de Crédito após assinatura do contrato.
+Portabilidade de Crédito - Aceite/recusa da proposta **Cenário: Abandono e retomada de jornada**Se a proposta ainda estiver disponível, são opções da Proponente:
+1. Reengajamento do usuário: Exibir, por exemplo, um modal para reengajar o usuário na jornada de Portabilidade de Crédito, em momento definido conforme estratégia da instituição. Ex.: Ao acessar o aplicativo, a área de Crédito/Empréstimos ou a seção do Open Finance.
+2. Exibição da proposta: Levar o usuário para a tela de exibição da proposta.
+3. Efetivação do pedido: Efetivar o pedido de Portabilidade de Crédito apenas após assinatura do contrato.
+Portabilidade de Crédito - Abandono e retomada da jornada 
+1. Indisponibilidade da proposta: Se a proposta não estiver mais disponível, informar o usuário que a proposta não está mais disponível. Possibilitar que o usuário faça um novo pedido de Portabilidade de Crédito para o mesmo contrato. Possibilitar que o usuário faça um novo pedido de Portabilidade de Crédito.
+Portabilidade de crédito - Abandono e retomada da jornada
+# Etapa 5: Efetivação
+PC - etapa 5Após o aceite da proposta ou o sequenciamento do pedido pela Instituição Proponente (IP), a Portabilidade de Crédito entra na etapa de efetivação. Nesse momento, a Proponente é responsável por liquidar o contrato junto à Credora. A Portabilidade de Crédito é efetivada quando a Credora confirma a liquidação do contrato.
+
+### Efetivação da Portabilidade
+Esta etapa ocorre no *backend*da jornada, sem ações diretas do usuário. Por esse motivo, os requisitos e recomendações relacionados à experiência do usuário estão organizados em outras seções do guia, conforme descrito a seguir:  
+- Comunicações e Notificações : reúne os requisitos referentes à informação ativa ao usuário sobre a efetivação da portabilidade, incluindo orientações para acesso ao status atualizado do pedido.
+- Gestão de Portabilidade de Crédito : concentra os requisitos sobre a atualização do status do pedido para “Portabilidade concluída” e a exibição dos dados da operação concluída.
+Portabilidade de Crédito - Efetivação da Portabilidade
